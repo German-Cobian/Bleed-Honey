@@ -2,17 +2,12 @@ body {
   width: 100%;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1001
-}
-
 .effect:hover {
   transform: scale(1.1);
   transition: 500ms linear; 
 }
+
+/* Text Styling */
 
 .small-text {
   font-size: 20px;
@@ -25,6 +20,12 @@ body {
 .blue-text {
   color: blue;
 }
+
+.white-text {
+  color: white;
+}
+
+/* Background Colors */
 
 .white {
   background-color: white;
@@ -45,6 +46,41 @@ body {
 .orange-border {
   border: 3px solid #de843b;
 }
+
+/* Backgroung Wallpaper */
+
+.backgrnd1 {
+  width: 100%;
+  background-image: url("assets/Honeycomb2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgrnd2 {
+  width: 100%;
+  background-image: url("assets/Honeycomb3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgrnd3 {
+  width: 100%;
+  background-image: linear-gradient(rgba(2, 165, 46, 0.05), rgb(8 8 8 / 93%)),
+  url("assets/Honeycomb4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Nav-Bar Styling */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001
+}
+
+/* Dropdown Styling */
 
 .dropdown {
   position: relative;
@@ -73,28 +109,7 @@ body {
   display: block;
 }
 
-.backgrnd1 {
-  width: 100%;
-  background-image: url("assets/Honeycomb2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.backgrnd2 {
-  width: 100%;
-  background-image: url("assets/Honeycomb3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.backgrnd3 {
-  width: 100%;
-  background-image: linear-gradient(rgba(2, 165, 46, 0.05), rgb(8 8 8 / 93%)),
-  url("assets/Honeycomb4.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
+/* Works Listing Styling */
 
 .project-info {
   height: 120px;
@@ -110,12 +125,44 @@ body {
   margin-left: 25%
 }
 
-
-
 .v-size {
   width: 380px; 
   height: 320px;
 }
+
+/* Pop-Up styling */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+
+    max-height: 80vh;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+}
+
+/* Responsivity */
 
 @media screen and (max-width: 800px) {
   .v-size {

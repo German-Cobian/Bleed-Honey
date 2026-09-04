@@ -1,239 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <title>Bleed the Honey</title>
-  </head>
-    
-  <body class="">
 
-    <nav class="navbar black border-bottom sticky">
-      <div class="nav-item text-white pl-5">Bleed the Honey</div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Bleed the Honey</title>
+</head>
+
+<body class="">
+
+  <nav class="navbar black border-bottom sticky">
+    <div class="nav-item text-white pl-5">Bleed the Honey</div>
+    <div class="d-flex flex-row">
+      <a class="nav-item d-none d-md-block text-white pr-5" href="#Portfolio">Works</a>
+      <a class="nav-item d-none d-md-block text-white pr-5" href="#About">About</a>
+      <a class="nav-item d-none d-md-block text-white pr-5" href="#Contact">Contact</a>
+      <div class="dropdown d-md-none pr-5">
+        <button class="dropbtn">
+          <img src="assets/menu.png" height=20 width=20 alt="menu icon" />
+        </button>
+        <div class="dropdown-content">
+          <a class="" href="#Portfolio">Songs</a>
+          <a class="" href="#About">About</a>
+          <a class="" href="#Contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <div class="black py-5 border-bottom d-flex flex-wrap justify-content-around">
+    <div class="ml-5 mb-5">
+      <img src="assets/BH-Logo1.png" height=150 width=300 alt="menu icon" />
+    </div>
+    <div class="effect">
+      <div class="project px-2 py-2 mt-3">
+        <video class="v-size" controls>
+          <source src="assets/The-Band.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="d-flex flex-row justify-content-around py-3">
+    <a href="" target="e-mail"><img alt="" class="effect" src="assets/mail.png" height=30 width=30></i></a>
+    <a href="" target="facebook"><img alt="" class="effect" src="assets/facebook.png" height=30 width=30></i></a>
+    <a href="" target="twitter"><img alt="" class="effect" src="assets/twitter.png" height=30 width=30></i></a>
+    <a href="" target="instagram"><img alt="" class="effect" src="assets/instagram.png" height=30 width=30></i></a>
+    <a href="" target="apple"><img alt="" class="effect" src="assets/apple.png" height=30 width=30></i></a>
+    <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+  </div>
+
+  <section id="Portfolio" class="black">
+
+    <h2 class="mb-5 pl-5 pt-5 orange-text">Showcased Songs</h2>
+
+    <div class="row ml-5">
+
+      <div class="col-sm-12 col-md-5">
+        <div class="project-info">
+          <h5 class="px-4 pt-5 orange-text">Something Going On</h5>
+        </div>
+        <div class="project d-flex flex-row justify-content-center effect">
+          <video class="mb-5 v-size" controls>
+            <source src="assets/Something Going On.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class=" d-flex flex-row justify-content-around mt-3">
+          <div class="d-flex flex-row justify-content-end">
+            <button id="openPopup1" type="button" class="btn black">
+              <img alt="" class="effect" src="assets/lyrics.png" height=25 width=25></i>
+            </button> 
+          </div>
+          <div class="d-flex flex-row justify-content-end mt-3">
+            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-5">
+        <div class="project-info">
+          <h5 class="px-4 pt-5 orange-text">Ugly As You</h5>
+        </div>
+        <div class="project d-flex flex-row justify-content-center effect">
+          <video class="mb-5 v-size" controls>
+            <source src="assets/Ugly As You.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class=" d-flex flex-row justify-content-around mt-3">
+          <div class="d-flex flex-row justify-content-end">
+            <button id="openPopup2" type="button" class="btn black">
+              <img alt="" class="effect" src="assets/lyrics.png" height=25 width=25></i>
+            </button> 
+          </div>
+          <div class="d-flex flex-row justify-content-end mt-1">
+            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row pb-5 pl-5">
+
+      <div class="col-sm-12 col-md-5">
+        <div class="project-info">
+          <h5 class="px-4 pt-5 orange-text">Black Wall</h5>
+        </div>
+        <div class="project d-flex flex-row justify-content-center effect">
+          <video class="mb-5 v-size" controls>
+            <source src="assets/Black Wall.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class=" d-flex flex-row justify-content-around mt-3">
+          <div class="d-flex flex-row justify-content-end">
+            <button id="openPopup3" type="button" class="btn black">
+              <img alt="" class="effect" src="assets/lyrics.png" height=25 width=25></i>
+            </button> 
+          </div>
+          <div class="d-flex flex-row justify-content-end mt-3">
+            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-5">
+        <div class="project-info">
+          <h5 class="px-4 pt-5 orange-text">Ranting About My Generation</h5>
+        </div>
+        <div class="project d-flex flex-row justify-content-center effect">
+          <video class="mb-5 v-size" controls>
+            <source src="assets/My Generation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class=" d-flex flex-row justify-content-around mt-3">
+          <div class="d-flex flex-row justify-content-end">
+            <button id="openPopup4" type="button" class="btn black">
+              <img alt="" class="effect" src="assets/lyrics.png" height=25 width=25></i>
+            </button> 
+          </div>
+          <div class="d-flex flex-row justify-content-end mt-3">
+            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="About" class="black">
+
+    <div class="py-5 white">
+      <h2 class="orange-text pl-5">About The Band</h2>
+      <p class="col-10 col-md-6 text-black pl-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac neque odio. Fusce molestie justo non sapien
+        vehicula,
+        a sollicitudin nibh sodales. Phasellus hendrerit ipsum in scelerisque commodo.
+      </p>
+
+    </div>
+
+    <div class="black d-flex flex-wrap justify-content-around">
+
+      <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
+
         <div class="d-flex flex-row">
-          <a class="nav-item d-none d-md-block text-white pr-5" href="#Portfolio">Works</a>
-          <a class="nav-item d-none d-md-block text-white pr-5" href="#About">About</a>
-          <a class="nav-item d-none d-md-block text-white pr-5" href="#Contact">Contact</a> 
-          <div class="dropdown d-md-none pr-5">
-            <button class="dropbtn">
-              <img src="assets/menu.png" height= 20 width= 20 alt="menu icon"/>
-            </button>
-            <div class="dropdown-content">
-              <a class="" href="#Portfolio">Songs</a>
-              <a class="" href="#About">About</a>
-              <a class="" href="#Contact">Contact</a> 
-            </div>
-          </div>
+          <img src="assets/hexagon.jpg" class="mt-1 mr-2" height=15 width=15 alt="menu icon" />
+          <h3 class="small-text text-white mb-5">Ruben Montoya</h3>
         </div>
-      </div>
-    </nav>
-
-    <div class="backgrnd3 py-5 border-bottom d-flex flex-wrap justify-content-around">
-      <div class="ml-5 mb-5">
-        <img src="assets/BH-Logo1.png" height= 150 width= 300 alt="menu icon"/>
-      </div>
-      <div class="effect">
-        <div class="project px-2 py-2 mt-3">
-            <video class="v-size" controls >
-              <source src="assets/The-Band.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-        </div>
-      </div>
-      
-    </div>
-
-    <div class="d-flex flex-row justify-content-around py-3">
-      <a href="" target="e-mail"><img alt="" class="effect" src="assets/mail.png" height= 30 width= 30></i></a>
-      <a href="" target="facebook"><img alt="" class="effect" src="assets/facebook.png" height= 30 width= 30></i></a>
-      <a href="" target="twitter"><img alt="" class="effect" src="assets/twitter.png" height= 30 width= 30></i></a>
-      <a href="" target="instagram"><img alt="" class="effect" src="assets/instagram.png" height= 30 width= 30></i></a>
-      <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-      <p>bleed_the_honey.com</p>
-    </div>
-    
-    <section id="Portfolio" class="black">
-      
-      <h2 class="mb-5 pl-5 pt-5 orange-text">Showcased Songs</h2>
-      
-      <div class="row ml-5">
-
-        <div class="col-sm-12 col-md-5 effect">
-          <div class="project-info">
-            <h5 class="px-4 pt-5 orange-text">Something Going On</h5>
-          </div>
-          <div class="project d-flex flex-row justify-content-center">
-            <video class="mb-5 v-size" controls >
-              <source src="assets/Something Going On.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="d-flex flex-row justify-content-end mt-3">
-            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-          </div>
-        </div>
-        
-        <div class="col-sm-12 col-md-5 effect">
-          <div class="project-info">
-            <h5 class="px-4 pt-5 orange-text">Ugly As You</h5>
-          </div>
-          <div class="project d-flex flex-row justify-content-center">
-            <video class="mb-5 v-size" controls >
-              <source src="assets/Ugly As You.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="d-flex flex-row justify-content-end mt-3">
-            <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row pb-5 pl-5">
-
-          <div class="col-sm-12 col-md-5 effect">
-            <div class="project-info">
-              <h5 class="px-4 pt-5 orange-text">Black Wall</h5>
-            </div>
-            <div class="project d-flex flex-row justify-content-center">
-              <video class="mb-5 v-size" controls >
-                <source src="assets/Black Wall.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="d-flex flex-row justify-content-end mt-3">
-              <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-5 effect">
-            <div class="project-info">
-              <h5 class="px-4 pt-5 orange-text">Ranting About My Generation</h5>
-            </div>
-            <div class="project d-flex flex-row justify-content-center">
-              <video class="mb-5 v-size" controls >
-                <source src="assets/My Generation.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="d-flex flex-row justify-content-end mt-3">
-              <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-            </div>
-          </div>
-
-    </section>
-    
-    <section id="About" class="black">
-
-      <div class="py-5 white">
-        <h2 class="orange-text pl-5">About The Band</h2>
-        <p class="col-10 col-md-6 text-black pl-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac neque odio. Fusce molestie justo non sapien vehicula,
-          a sollicitudin nibh sodales. Phasellus hendrerit ipsum in scelerisque commodo.
-        </p>
         <div class="d-flex flex-row justify-content-center">
-          <a href="" target="resume" class="col-2 btn py-2 rounded-pill orange-border bg-light effect">Some PDF</a>
+          <img src="assets/Ruben.png" height=150 width=150 alt="menu icon" />
         </div>
       </div>
 
-      <div class="black d-flex flex-wrap justify-content-around">
+      <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
 
-        <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
-
-          <div class="d-flex flex-row">
-            <img src="assets/hexagon.jpg" class="mt-1 mr-2" height= 15 width= 15 alt="menu icon"/>
-            <h3 class="small-text text-white mb-5">Ruben Montoya</h3>
-            </div>
-            <div class="d-flex flex-row justify-content-center">
-              <img src="assets/Ruben.png" height= 150 width= 150 alt="menu icon"/>
-            </div>
+        <div class="d-flex flex-row">
+          <img src="assets/hexagon.jpg" class="mt-1 mr-2" height=15 width=15 alt="menu icon" />
+          <h3 class="small-text text-white mb-5">Sean Bradley</h3>
         </div>
-      
-        <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
-
-          <div class="d-flex flex-row">
-            <img src="assets/hexagon.jpg" class="mt-1 mr-2" height= 15 width= 15 alt="menu icon"/>
-            <h3 class="small-text text-white mb-5">Sean Bradley</h3>
-          </div>
-          <div class="d-flex flex-row justify-content-center">
-            <img src="assets/Sean.png" height= 150 width= 150 alt="menu icon"/>
-          </div>
+        <div class="d-flex flex-row justify-content-center">
+          <img src="assets/Sean.png" height=150 width=150 alt="menu icon" />
         </div>
-
-        <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
-
-          <div class="d-flex flex-row">
-            <img src="assets/hexagon.jpg" class="mt-1 mr-2" height= 15 width= 15 alt="menu icon"/>
-            <h3 class="small-text text-white mb-5">Mark Bagula</h3>
-          </div>
-          <div class="d-flex flex-row justify-content-center">
-            <img src="assets/Mark.png" height= 150 width= 150 alt="menu icon"/>
-            
-          </div>
-        </div>
-
-         <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
-
-          <div class="d-flex flex-row">
-            <img src="assets/hexagon.jpg" class="mt-1 mr-2" height= 15 width= 15 alt="menu icon"/>
-            <h3 class="small-text text-white mb-5">Rene Ibarra</h3>
-          </div>
-          <div class="d-flex flex-row justify-content-center">
-            <img src="assets/Rene.png" height= 150 width= 150 alt="menu icon"/>
-            
-          </div>
-        </div>
-
       </div>
 
-    </section>
-     
-    <section id="Contact" class="d-flex flex-column flex-md-row my-5">
-      
-      <div class="d-flex flex-column flex-md-row mx-5 my-5">
-        
-        <div>
-          <h4 class="col-10 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac neque odio. Fusce molestie justo non sapien vehicula,
-            a sollicitudin nibh sodales. Phasellus hendrerit ipsum in scelerisque commodo.</h4>
-        
-          <div class="">
-            <video class="mb-3 v-size" controls >
+      <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
+
+        <div class="d-flex flex-row">
+          <img src="assets/hexagon.jpg" class="mt-1 mr-2" height=15 width=15 alt="menu icon" />
+          <h3 class="small-text text-white mb-5">Mark Bagula</h3>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <img src="assets/Mark.png" height=150 width=150 alt="menu icon" />
+
+        </div>
+      </div>
+
+      <div class="skills-container px-3 pt-3 pb-5 my-5 black border orange-border rounded effect">
+
+        <div class="d-flex flex-row">
+          <img src="assets/hexagon.jpg" class="mt-1 mr-2" height=15 width=15 alt="menu icon" />
+          <h3 class="small-text text-white mb-5">Rene Ibarra</h3>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <img src="assets/Rene.png" height=150 width=150 alt="menu icon" />
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="Contact" class="d-flex flex-column flex-md-row my-5">
+
+    <div class="d-flex flex-column flex-md-row mx-5 my-5">
+
+      <div>
+        <h4 class="col-10 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac neque odio. Fusce
+          molestie justo non sapien vehicula,
+          a sollicitudin nibh sodales. Phasellus hendrerit ipsum in scelerisque commodo.</h4>
+
+        <div class="">
+          <video class="mb-3 v-size" controls>
             <source src="assets/logo-animation.mp4" type="video/mp4">
             Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-
-
-        <div class="col-sm-10 col-md-6 border px-5 py-5">
-          <form  name=”contact_form” id="contact-form" action="https://formspree.io/f/xeqvkewr" method="POST">
-            <div class="d-flex flex-column justify-content-center">
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" class="form-control mb-4" placeholder="Enter your name">
-              <label for="email">E-mail address:</label>
-              <input type="text" name="email" id="email" class="form-control mb-4" placeholder="Enter your e-mail address">
-              <label for="message">Message:</label>
-              <textarea name="message" id="message" class="form-control mb-5" placeholder="Enter your message here" required maxlength="250"></textarea>
-              <input type="submit" class="col-4 btn orange-border effect" value="Contact >">
-            </div>
-          </form>
+          </video>
         </div>
       </div>
-      
-    </section>
 
-    <div class="d-flex flex-row justify-content-around py-3 border-top">
-      <a href="" target="e-mail"><img alt="" class="effect" src="assets/mail.png" height= 30 width= 30></i></a>
-      <a href="" target="facebook"><img alt="" class="effect" src="assets/facebook.png" height= 30 width= 30></i></a>
-      <a href="" target="twitter"><img alt="" class="effect" src="assets/twitter.png" height= 30 width= 30></i></a>
-      <a href="" target="instagram"><img alt="" class="effect" src="assets/instagram.png" height= 30 width= 30></i></a>
-      <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height= 30 width= 30></i></a>
-      <p>www.bleed_the_honey.com</p>
+
+      <div class="col-sm-10 col-md-6 border px-5 py-5">
+        <form name=”contact_form” id="contact-form" action="https://formspree.io/f/xeqvkewr" method="POST">
+          <div class="d-flex flex-column justify-content-center">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control mb-4" placeholder="Enter your name">
+            <label for="email">E-mail address:</label>
+            <input type="text" name="email" id="email" class="form-control mb-4"
+              placeholder="Enter your e-mail address">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" class="form-control mb-5" placeholder="Enter your message here"
+              required maxlength="250"></textarea>
+            <input type="submit" class="col-4 btn orange-border effect" value="Contact >">
+          </div>
+        </form>
+      </div>
     </div>
 
-  </body>
+  </section>
+
+  <div class="d-flex flex-row justify-content-around py-3 border-top">
+    <a href="" target="e-mail"><img alt="" class="effect" src="assets/mail.png" height=30 width=30></i></a>
+    <a href="" target="facebook"><img alt="" class="effect" src="assets/facebook.png" height=30 width=30></i></a>
+    <a href="" target="twitter"><img alt="" class="effect" src="assets/twitter.png" height=30 width=30></i></a>
+    <a href="" target="instagram"><img alt="" class="effect" src="assets/instagram.png" height=30 width=30></i></a>
+    <a href="" target="apple"><img alt="" class="effect" src="assets/apple.png" height=30 width=30></i></a>
+    <a href="" target="spotify"><img alt="" class="effect" src="assets/spotify.png" height=30 width=30></i></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
