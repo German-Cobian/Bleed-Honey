@@ -162,6 +162,20 @@ body {
     box-sizing: border-box;
 }
 
+.popup-contentB {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: start;
+    width: 80%;
+    max-width: 600px;
+
+    max-height: 80vh;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+}
+
 /* Responsivity */
 
 @media screen and (max-width: 800px) {
