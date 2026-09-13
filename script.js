@@ -220,7 +220,39 @@ openButton4.addEventListener("click", function () {
         <div class="popup-content">
             <h2>Ranting About My Generation</h2><br>
                   <p>
-                    
+                    Hear the one about the suicidal overachiever?<br>
+                    Killed himself after firing four shots to his head.<br>
+                    He always was such a hard worker.<br>
+                    Worked his way up the ladder.<br>
+                    <br>
+                    A couple of tours on the path of love<br>
+                    and he became a common man.<br>
+                    <br>
+                    Although the man is dead,<br>
+                    I stand before you now,<br>
+                    to chant this little tune today.<br> 
+                    <br>
+                    Ranting about my generation. (6 times) 
+                    <br>
+                    Another achiever from the working class
+                    almost took his life.
+                    He was about to jump off the bridge
+                    and turn his day to night.
+                    <br>
+                    He always was struggling<br>
+                    to be more than he should.<br>
+                    But in the end, he decided to live<br>
+                    and walk a different path.<br>
+                    <br>
+                    Although the man's alive,<br>
+                    I stand before you now,<br>
+                    to chant this little tune today.<br> 
+                    <br>
+                    Ranting about my generation. (6 times) 
+                    <br>
+                    Lead Guitar 🎸 Solo.......<br>
+                    <br>
+                    Ranting about my generation. (6 times) 
                   </p>
              
                 <button id="closePopup" type="button" class="btn black white-text">Close</button>
