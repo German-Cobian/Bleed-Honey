@@ -341,6 +341,7 @@ openButton6.addEventListener("click", function () {
                     While continuing to learn guitar, Sean would jam with friends, writing and composing songs 
                     together in their garage. Those early sessions helped shape his passion for creating music with 
                     others.<br>
+                    <br>
                     Today, Sean continues that journey as a songwriter and composer with Bleed the Honey, 
                     bringing together his love of guitar, rhythm, collaboration, and diverse musical influences.<br>
                     <br>
