@@ -409,7 +409,7 @@ openButton7.addEventListener("click", function () {
                     Mark’s bent toward surrealism has helped him create videos with the limited wonder of AI; 
                     and guided him to a new form of creativity he once could only see in his mind.<br>
                     <br>
-                    Mark believes all creation comes from the creator; and it is our short missionionary purpose
+                    Mark believes all creation comes from the creator; and it is our short missionary purpose
                     to catalyze all forms of creativity.<br>
                     <br>
                     C.S. Lewis, The Business of Heaven,<br>
