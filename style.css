@@ -4,7 +4,7 @@ body {
 
 .effect:hover {
   transform: scale(1.1);
-  transition: 500ms linear; 
+  transition: 500ms linear;
 }
 
 /* Text Styling */
@@ -40,12 +40,104 @@ body {
 }
 
 .honey {
- background-color: #45556C;
+  background-color: #45556C;
 }
 
 .orange-border {
   border: 3px solid #de843b;
 }
+
+/* Carrousel */
+
+ul {
+  width: 310px;
+  height: 500px;
+  
+  display: flex;
+  gap: 4vw;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  anchor-name: --my-carousel;
+  scroll-marker-group: after;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄" / "Previous";
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 05px);
+
+}
+
+ul::scroll-button(right) {
+  content: "►" / "Next";
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 05px);
+
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li::scroll-marker {
+  content: attr(data-accName);
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 2px solid #de843b;;
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: 16px;
+}
+
+li::scroll-marker:target-current {
+  background-color: #de843b;;
+}
+
+li {
+  list-style-type: none;
+  
+  padding: 20px;
+
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
 
 /* Backgroung Wallpaper */
 
@@ -66,7 +158,7 @@ body {
 .backgrnd3 {
   width: 100%;
   background-image: linear-gradient(rgba(2, 165, 46, 0.05), rgb(8 8 8 / 93%)),
-  url("assets/Honeycomb4.png");
+    url("assets/Honeycomb4.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -126,77 +218,76 @@ body {
 }
 
 .v-size {
-  width: 380px; 
+  width: 380px;
   height: 320px;
 }
 
 /* Pop-Up styling */
 
 .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    padding: 20px;
-    box-sizing: border-box;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .popup-content {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 80%;
-    max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
 
-    max-height: 80vh;
-    overflow-y: auto;
+  max-height: 80vh;
+  overflow-y: auto;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .popup-contentB {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: start;
-    width: 80%;
-    max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: start;
+  width: 80%;
+  max-width: 600px;
 
-    max-height: 80vh;
-    overflow-y: auto;
+  max-height: 80vh;
+  overflow-y: auto;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Responsivity */
 
 @media screen and (max-width: 800px) {
   .v-size {
-    width: 260px; 
+    width: 260px;
     height: 220px;
   }
 
-   .skills-container {
+  .skills-container {
     width: 60%;
     margin-left: 20%;
-  } 
+  }
 }
 
 
 
 @media screen and (max-width: 1000px) {
   .v-size {
-    width: 280px; 
+    width: 280px;
     height: 240px;
   }
 
- 
 }
