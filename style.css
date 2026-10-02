@@ -213,6 +213,15 @@ li {
   background-color: white;
 }
 
+.project1 {
+  height: 300px;
+  background-image: url("assets/tv-shows-listing.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
 .alignment {
   margin-left: 25%
 }
